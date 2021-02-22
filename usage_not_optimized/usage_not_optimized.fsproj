@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\assembly_A\assembly_A.fsproj" />
+    <ProjectReference Include="..\assembly_A_optimized\assembly_A_optimized.fsproj" />
+    <ProjectReference Include="..\assembly_B_not_optimized\assembly_B_not_optimized.fsproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -2,11 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Optimize>false</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="LibraryA.fs" />
-    <Compile Include="LibraryAPublic.fs" />
+    <Compile Include="LibraryB.fs" />
+    <Compile Include="LibraryBPublic.fs" />
   </ItemGroup>
 
   <ItemGroup>
